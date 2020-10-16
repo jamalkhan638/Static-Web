@@ -15,15 +15,15 @@ function DefaultFooter() {
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=nukr-default-footer"
+                  href="#"
                   target="_blank"
                 >
-                  Creative Tim
+                  Contact Us
                 </a>
               </li>
               <li>
                 <a
-                  href="http://presentation.creative-tim.com?ref=nukr-default-footer"
+                  // href="http://presentation.creative-tim.com?ref=nukr-default-footer"
                   target="_blank"
                 >
                   About Us
@@ -31,7 +31,7 @@ function DefaultFooter() {
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com?ref=nukr-default-footer"
+                  // href="http://blog.creative-tim.com?ref=nukr-default-footer"
                   target="_blank"
                 >
                   Blog
@@ -40,19 +40,19 @@ function DefaultFooter() {
             </ul>
           </nav>
           <div className="copyright" id="copyright">
-            © {new Date().getFullYear()}, Designed by{" "}
+            © {new Date().getFullYear()},  copyright{" "}
             <a
-              href="https://www.invisionapp.com?ref=nukr-default-footer"
+              // href="https://www.invisionapp.com?ref=nukr-default-footer"
               target="_blank"
             >
-              Invision
+              Razzaq Logistics
             </a>
-            . Coded by{" "}
+           
             <a
-              href="https://www.creative-tim.com?ref=nukr-default-footer"
+              href="#"
               target="_blank"
             >
-              Creative Tim
+             
             </a>
             .
           </div>

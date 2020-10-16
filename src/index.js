@@ -31,6 +31,7 @@ import LoginPage from "views/examples/LoginPage.js";
 import HeaderPage from './components/Headers/LandingPageHeader'
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import SignUp from "./views/index-sections/SignUp"
 
 ReactDOM.render(
   <BrowserRouter>
@@ -52,6 +53,10 @@ ReactDOM.render(
         <Route
           path="/login-page"
           render={(props) => <LoginPage {...props} />}
+        />
+         <Route
+          path="/signUp"
+          render={(props) => <SignUp {...props} />}
         />
         <Route
           path="/landing-page"

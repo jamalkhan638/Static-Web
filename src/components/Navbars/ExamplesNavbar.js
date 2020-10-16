@@ -64,7 +64,7 @@ function ExamplesNavbar() {
               <span className="button-bar"></span>
               <span className="button-bar"></span>
             </DropdownToggle>
-            <DropdownMenu aria-labelledby="navbarDropdown">
+            {/* <DropdownMenu aria-labelledby="navbarDropdown">
               <DropdownItem header tag="a">
                 Dropdown header
               </DropdownItem>
@@ -85,11 +85,11 @@ function ExamplesNavbar() {
               <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
                 One more separated link
               </DropdownItem>
-            </DropdownMenu>
+            </DropdownMenu> */}
           </UncontrolledDropdown>
           <div className="navbar-translate">
             <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/index?ref=nukr-examples-navbar"
+              href="/landing-page"
               target="_blank"
               id="navbar-brand"
             >
@@ -119,18 +119,18 @@ function ExamplesNavbar() {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink to="/index" tag={Link}>
+                <NavLink to="#" tag={Link}>
                   Join Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink href="/signUp">
                   Signup
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
+                  href="#"
                   target="_blank"
                   id="twitter-tooltip"
                 >
@@ -143,7 +143,7 @@ function ExamplesNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                  href="https://www.facebook.com/Razzak.Logistics"
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -156,7 +156,7 @@ function ExamplesNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                  href="#"
                   target="_blank"
                   id="instagram-tooltip"
                 >
